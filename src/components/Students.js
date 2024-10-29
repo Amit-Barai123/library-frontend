@@ -154,7 +154,7 @@ const Students = () => {
               <td>
                 {student.photo && (
                   <img
-                    src={`${server}/${student.photo}`}
+                    src={`${server}${student.photo}`}
                     alt="student"
                     width="50"
                     height="50"
@@ -164,7 +164,7 @@ const Students = () => {
               <td>
                 {student.video && (
                   <video
-                    src={`${server}/${student.video}`}
+                    src={`${server}${student.video}`}
                     width="100"
                     height="50"
                     controls
